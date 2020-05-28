@@ -1,0 +1,28 @@
+header{
+	background:#8c8c8c;
+}
+a{
+	color: #000000;
+	background-color: #f2f2f2;
+}
+h1{
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+h2{
+	color: #0000ff;
+	text-transform: uppercase;
+}
+section{
+	background-color:#8c8c8c;
+	font-family: arail,"the times roman",serif;
+
+}
+abbr{
+	color: #0000ff;
+
+}
+img{
+	display:none;
+}

@@ -1,0 +1,156 @@
+body{
+  margin: 1%;
+  padding: 1%;
+  background-color:#fef5e7 ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  overflow: hidden;
+  background-color: #7b7d7d;
+  padding: 20px 10px;
+}
+
+ header nav{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 25px;
+}
+
+header h1{
+  color: #fef5e7 ;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+header a:hover {
+  background-color: #fef5e7;
+  color: #000000;
+}
+
+header a.active {
+  background-color: #1E90FF;
+  color: #ffff;
+}
+
+header nav {
+  float: right;
+}
+
+nav a{
+  font-size: 25px;
+  border: 2px solid #fbeee6;
+  border-radius: 25px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+main{
+  display: table;
+  width: 100%;
+ }
+
+.left {
+    display: table-cell;
+    width: 20em;
+    padding: 1.5em 1.5em 0;
+    border: 1px solid #7b7d7d;
+    border-right-color: #000;
+    background-color: #7b7d7d;
+ }
+
+.left img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5em;
+    border: 1px solid #000;
+ }
+
+/* creating gry background color for my table header*/
+ th{
+   background-color: #7b7d7d;
+ }
+
+/* Here how i made the first column left and the other two column centered*/
+.right td,
+.right th
+{
+    text-align: left;
+}
+
+.right td + td,
+.right th + th
+{
+    text-align: center;
+}
+
+/* The table headings should have a thicker bottom border with the top two corners rounded*/ 
+.right {
+    border-collapse:separate;
+}
+
+th {
+    border:solid black 1px;
+    border-top-right-radius:8px;
+    border-top-left-radius: 8px;
+   -moz-border-radius:8px;
+}
+
+/* The table should be styled using at least four properties is here*/
+.right{
+    display: table-cell;
+    padding: 4% 0 0 4%;
+    border-top: 1px solid #000;
+    vertical-align: top;
+ }
+
+.right h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5%;
+ }
+
+.right p {
+    font-size: 120%;
+ }
+
+/* Here I styled The Line-height, font-family and centred the table using margin*/
+.right table {
+    padding-top: 1%; 
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 75%;
+    margin: 0 auto;
+ }
+
+ .right th {
+    padding: 0.25em 0.5em;
+    border: 1px solid #cbc2b4;
+    font-size: 120%;
+    line-height: 45px;
+    border-bottom: 5px solid #3498DB;
+ }
+
+/* here how i created my background Row and i set the opacity to 0.6*/
+   tr td{
+    padding: 0.25em 0.5em;
+    border: 1px solid #cbc2b4;
+    background:#bcbcbc;
+    opacity: 0.75;
+ }
+ /* here how i changed the opacity of the text to be visuble when somone hover*/
+  tr td:hover{
+    opacity: 1;
+    color: #000;
+    font-weight: bold;
+    font-size:90%;
+    line-height: 40px;
+}
